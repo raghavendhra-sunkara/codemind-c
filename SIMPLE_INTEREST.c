@@ -6,5 +6,4 @@ int main()
     si=p*t*r/100;
     printf("%d",si);
     return 0;
-    
 }
