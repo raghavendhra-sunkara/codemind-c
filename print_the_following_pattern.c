@@ -7,10 +7,14 @@ int main()
     {
         for(k=1;k<=r;k++)
         {
-            if(k==v||k==1||k==r)
-            printf("* ");
+            if(v+k==r+1 || v-k==0)
+            {
+                printf("x");
+            }
             else
-            printf("  ");
+            {
+                printf("0");
+            }
         }
         printf("
 ");
