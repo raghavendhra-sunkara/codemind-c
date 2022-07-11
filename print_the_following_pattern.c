@@ -1,23 +1,15 @@
 #include<stdio.h>
 int main()
 {
-    int n,v,k;
-    scanf("%d",&n);
-    for(v=1;v<=n;v++)
+    int r,v,k;
+    scanf("%d",&r);
+    for(v=1;v<=r;v++)
     {
-        for(k=1;k<=n;k++)
+        for(k=r;k>=1;k--)
         {
-            if(v==k)
-            {
-                printf("0");
-            }
-            else
-            {
-                printf("x");
-            }
+            printf("%c ",v+64);
         }
         printf("
 ");
     }
-    return 0;
 }
