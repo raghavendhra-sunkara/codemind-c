@@ -1,13 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int n,v,k;
-    scanf("%d",&n);
-    for(v=1;v<=n;v++)
+    int r,v,k;
+    scanf("%d",&r);
+    for(v=r;v>=1;v--)
     {
-        for(k=1;k<=v;k++)
+        for(k=v;k>=1;k--)
+        
         {
-            printf("%d",k);
+            printf("%c ",v+64);
         }
         printf("
 ");
